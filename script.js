@@ -1,4 +1,4 @@
-// script.js
+
 let display = document.getElementById("display");
 
 function appendValue(value) {
@@ -11,7 +11,7 @@ function clearDisplay() {
 
 function calculate() {
   try {
-    display.value = eval(display.value);  // evaluates string as math expression
+    display.value = eval(display.value); 
   } catch (error) {
     display.value = "Error";
   }
